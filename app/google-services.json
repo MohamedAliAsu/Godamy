@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "839183299049",
+    "firebase_url": "https://godamy-b5374-default-rtdb.firebaseio.com",
+    "project_id": "godamy-b5374",
+    "storage_bucket": "godamy-b5374.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839183299049:android:c955e5c6c3170a132fdb78",
+        "android_client_info": {
+          "package_name": "com.education.godamy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839183299049-d6mp27cfdcupj2bhkaod69g0me4iplji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.education.godamy",
+            "certificate_hash": "4cfe29f18818b4fd389e2651b9691f89b303279d"
+          }
+        },
+        {
+          "client_id": "839183299049-sghlddbbcphc7bthr8osa7c9v8m78sf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.education.godamy",
+            "certificate_hash": "034f9545d3ce4810e40214101ac07686f2d4db94"
+          }
+        },
+        {
+          "client_id": "839183299049-6l17tepstccm12beev7t1c230brik06k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23DV3SjM8N-U2Na7PtLAYvGIMUMEOJoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839183299049-6l17tepstccm12beev7t1c230brik06k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

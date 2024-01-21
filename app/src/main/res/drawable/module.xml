@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+
+        android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/DarkYellowtheme"/>
+            <corners android:radius="50dp"/>
+        </shape>
+    </item>
+</layer-list>
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <solid android:color="@color/bluetheme"/>-->
+<!--    <stroke android:width="4dp" android:color="@color/black"/>-->
+<!--    &lt;!&ndash; Background color &ndash;&gt;-->
+
+<!--    <corners-->
+<!--        android:bottomRightRadius="25dp"-->
+<!--        android:bottomLeftRadius="25dp"/> &lt;!&ndash; Adjust the radius for desired corner roundness &ndash;&gt;-->
+<!--</shape>-->

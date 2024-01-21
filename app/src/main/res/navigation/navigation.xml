@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/signOptions">
+
+    <fragment
+        tools:layout="@layout/fragment_sign_options"
+        android:id="@+id/signOptions"
+        android:name="com.education.godamy.SignOptions"
+        android:label="SignOptions" >
+        <action
+            android:id="@+id/action_signOptions_to_username2"
+            app:destination="@id/username2"
+            app:enterAnim="@anim/frag_enter"
+            app:exitAnim="@anim/frag_exit"/>
+        <action
+            android:id="@+id/action_signOptions_to_phone22"
+            app:destination="@id/phone2"
+            app:enterAnim="@anim/frag_enter"
+            app:exitAnim="@anim/frag_exit"/>
+    </fragment>
+    <fragment
+        android:id="@+id/username2"
+        android:name="com.education.godamy.Username"
+        android:label="fragment_username"
+        tools:layout="@layout/fragment_username" >
+
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_phone"
+        android:id="@+id/phone2"
+        android:name="com.education.godamy.Phone"
+        android:label="Phone" >
+        <action
+            android:id="@+id/action_phone2_to_username2"
+            app:destination="@id/username2"
+            app:enterAnim="@anim/frag_enter"
+            app:exitAnim="@anim/frag_exit">
+
+        </action>
+    </fragment>
+</navigation>
